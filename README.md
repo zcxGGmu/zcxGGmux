@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/output/github-contribution-grid-snake-dark.svg?v=30026077052">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/output/github-contribution-grid-snake.svg?v=30026077052">
@@ -10,57 +10,35 @@
   <sub>contribution graph rendered with <a href="https://github.com/Platane/snk">Platane/snk</a></sub>
 </p>
 
-<div align="center">
-
-<pre><code>zcxGGmu@github:~$ ./boot
-
-target     : hypervisor / linux kernel / llm systems
-runtime    : C | Rust | Python | TypeScript
-working_on : RISC-V KVM | Ferrovisor | code agents
-
-keep the stack small, the feedback loop tight,
-and the abstractions honest.
-</code></pre>
-
-</div>
-
 ---
 
-<details open>
-<summary><code>kernel.log</code></summary>
+## Current Projects
 
-<pre><code>current focus
-|- RISC-V KVM: perf, extensions, dirty logging, nested virtualization
-|- Ferrovisor: memory-safe type-1 hypervisor experiments in Rust
-|- Linux internals: guests, VMIDs, gstage mapping, IOMMU paths
-\\- AI agents: code understanding, open-source workflows, tool use
-</code></pre>
+- [**CodeInsights**](https://github.com/zcxGGmu/CodeInsights) — an LLM-powered multi-agent platform for open-source contribution workflows. It is built around repository understanding, issue/PR scouting, agent coordination, and turning scattered open-source work into a repeatable engineering loop.
+- [**serenity-alpha-lab**](https://github.com/zcxGGmu/serenity-alpha-lab) — a research-only lab for stock, sector, and theme analysis inspired by Serenity-style reasoning. The goal is not to chase signals blindly, but to build clearer research workflows around narratives, fundamentals, and market structure.
+- [**ClawPerch**](https://github.com/zcxGGmu/ClawPerch) — a lightweight desktop perch for watching and managing OpenClaw / Codex-style agents. It focuses on keeping long-running agent work visible, interruptible, and operationally sane.
 
-</details>
+## Open-Source Contributions
 
-<details open>
-<summary><code>selected work</code></summary>
+- **Linux kernel / RISC-V KVM** — I have contributed across RISC-V KVM, guest statistics, interrupt reporting, guest extension enablement, dirty memory tracking, gstage mapping, VMID / nested virtualization exploration, and related kernel paths.
+- **Patch-first engineering** — I treat upstream kernel work as a long-running trail of small, reviewable patches: some land, some evolve through review, and some become the next iteration of the design.
+- **Community PRs** — I also count public PR work across major communities, whether merged or not, because the engineering value is in the attempt, discussion, review, and iteration. My PR trail spans projects such as CopilotKit, OpenHands, ragflow, SWE-agent, pydantic-ai, LlamaIndex, Haystack, Dify, anything-llm, Flowise, and related AI / agent ecosystems.
+- **Contribution surface** — low-level systems, open-source AI infrastructure, agent frameworks, developer tooling, and workflows that make complex repositories easier to understand and improve.
 
-- [Ferrovisor](https://github.com/zcxGGmu/Ferrovisor) - memory-safe, high-performance type-1 hypervisor built in Rust
-- [linux-riscv](https://github.com/zcxGGmu/linux-riscv) - Linux kernel source tree and RISC-V exploration
-- [kvm-riscv](https://github.com/zcxGGmu/kvm-riscv) - Linux KVM RISC-V workspace
-- [Astraeus](https://github.com/zcxGGmu/Astraeus) - platform for autonomous AI agents
-- [CodeInsights](https://github.com/zcxGGmu/CodeInsights) - LLM-powered multi-agent platform for open-source contributions
-- [TinyLLMInfer-rs](https://github.com/zcxGGmu/TinyLLMInfer-rs) - small Rust inference engine experiment
+## AI Systems Philosophy
 
-</details>
+From [**“What You Need to Learn from the claw-code repo”**](https://zcxggmu.github.io/2026/what-you-need-to-learn-from-claw-code-repo/):
 
-<details>
-<summary><code>patch trail</code></summary>
+> The important layer is not the generated files. Code is the artifact; the system that produces, reviews, retries, and ships the code is the real thing to study.
 
-- [riscv: Add perf support to collect KVM guest statistics from host side](https://lore.kernel.org/all/cover.1728980031.git.zhouquan@iscas.ac.cn/)
-- [RISC-V: perf/kvm: Add reporting of interrupt events](https://lore.kernel.org/all/9693132df4d0f857b8be3a75750c36b40213fcc0.1726211632.git.zhouquan@iscas.ac.cn/)
-- [RISC-V: KVM: Enable ring-based dirty memory tracking](https://lore.kernel.org/all/cover.1749810735.git.zhouquan@iscas.ac.cn/)
-- [RISC-V: KVM: Add Zicfiss/Zicfilp support](https://lore.kernel.org/all/cover.1764509485.git.zhouquan@iscas.ac.cn/)
-- [KVM: riscv: Support enabling dirty log gradually in small chunks](https://lore.kernel.org/all/20251103062825.9084-1-dayss1224@gmail.com/)
+My current engineering lens:
 
-</details>
+- Human value moves upward: direction, constraints, taste, judgment, and knowing what is worth building.
+- Agents should not be treated as faster autocomplete. The real jump is the orchestration layer: planning, execution, review, notification, retry, and recovery.
+- Good AI systems are closed loops, not one-shot prompts. They keep working when nobody is staring at the terminal.
+- The bottleneck is no longer typing speed. It is problem decomposition, architectural clarity, feedback design, and the ability to distinguish signal from noise.
+- The best systems amplify clear thinking. They do not replace it.
 
 <p align="center">
-  <sub>systems at the bottom, agents at the edge</sub>
+  <sub>systems at the bottom · agents at the edge · orchestration in the loop</sub>
 </p>
