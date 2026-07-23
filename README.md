@@ -1,13 +1,13 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/main/assets/system-trace-dark.gif">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/main/assets/system-trace-light.gif">
-    <img alt="animated systems trace" src="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/main/assets/system-trace-light.gif">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/output/github-contribution-grid-snake.svg">
   </picture>
 </p>
 
 <p align="center">
-  <sub>animated systems trace | RISC-V / KVM / agentic systems</sub>
+  <sub>contribution graph rendered with <a href="https://github.com/Platane/snk">Platane/snk</a></sub>
 </p>
 
 <div align="center">
