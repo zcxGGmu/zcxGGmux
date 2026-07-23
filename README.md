@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <sub>animated systems trace - real contribution data remains unmodified</sub>
+  <sub>animated systems trace | RISC-V / KVM / agentic systems</sub>
 </p>
 
 <div align="center">
