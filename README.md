@@ -1,13 +1,13 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/output/github-contribution-grid-snake-dark.gif">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/output/github-contribution-grid-snake.gif">
-    <img alt="animated github contribution snake" src="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/output/github-contribution-grid-snake.gif">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/main/assets/system-trace-dark.gif">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/main/assets/system-trace-light.gif">
+    <img alt="animated systems trace" src="https://raw.githubusercontent.com/zcxGGmu/zcxGGmu/main/assets/system-trace-light.gif">
   </picture>
 </p>
 
 <p align="center">
-  <sub>contribution graph rendered with <a href="https://github.com/Platane/snk">Platane/snk</a></sub>
+  <sub>animated systems trace - real contribution data remains unmodified</sub>
 </p>
 
 <div align="center">
