@@ -27,8 +27,6 @@
 
 ## AI Systems Philosophy
 
-From [**“What You Need to Learn from the claw-code repo”**](https://zcxggmu.github.io/2026/what-you-need-to-learn-from-claw-code-repo/):
-
 > The important layer is not the generated files. Code is the artifact; the system that produces, reviews, retries, and ships the code is the real thing to study.
 
 My current engineering lens:
